@@ -10,7 +10,7 @@ Immagina di dover studiare un copione con più personaggi, ma di non avere sempr
 
 ## A chi è rivolto?
 
-- 🎭 **Attori professionisti** che vogliono provare da soli prima delle prove collettive
+- 🎭 **Attori** che vogliono provare da soli prima delle prove collettive
 - 🎬 **Studenti di teatro** che devono memorizzare copioni e battute
 - 🎤 **Doppiatori** che si preparano per sessioni di registrazione
 - 📚 **Insegnanti di teatro** che vogliono far esercitare i loro allievi
@@ -52,19 +52,36 @@ Quando mancano 10 secondi alla tua prossima battuta, appare un discreto countdow
 ### 💡 Filosofia
 L'app è stata progettata per essere uno **strumento di lavoro serio** ma con un'interfaccia moderna e piacevole da usare. Crediamo che la tecnologia debba supportare l'arte teatrale senza snaturarla: per questo motivo In Scena non sostituisce le prove reali, ma ti aiuta a prepararti al meglio per esse.
 
-## Design e usabilità
-
-In Scena è pensata per essere usata principalmente su **smartphone**, perché sappiamo che un attore ha bisogno di muoversi, gesticolare, interpretare liberamente senza stare davanti a un computer. Il design è:
-- 📱 **Mobile-first**: interfaccia ottimizzata per schermi piccoli
-- 👆 **Touch-friendly**: pulsanti grandi e comodi da premere
-- 🎨 **Visivamente elegante**: colori personaggio, animazioni fluide, design moderno
-- 🌙 **Dark theme**: non affatica gli occhi durante prove prolungate
-
 ## Tecnologia
 
 In Scena è un'applicazione web moderna costruita con **React** e **Tailwind CSS**, che funziona completamente **lato client** (nessun server necessario). Può essere installata facilmente e usata anche offline dopo il primo caricamento.
 
 Per la generazione degli audio delle battute, supportiamo l'integrazione con **ElevenLabs** per voci ultra-realistiche e naturali.
+
+## Wishlist 🚀
+
+Stiamo lavorando per rendere In Scena ancora più potente! Ecco le funzionalità che vorremmo implementare:
+
+### 📱 Supporto Offline Completo
+Utilizzare **Service Worker** per permettere all'app di funzionare completamente offline, senza connessione internet. Una volta caricata la prima volta, potrai provare i tuoi copioni ovunque: in metro, in un parco, nel camerino prima dello spettacolo. Il teatro non si ferma mai!
+
+### 🎬 Gestione Multi-Atto
+Aggiungere un **menu di selezione atti** per gestire copioni completi con più atti e scene. Potrai:
+- Selezionare quale atto studiare
+- Saltare direttamente a scene specifiche
+- Vedere statistiche di progresso per ogni atto
+- Gestire copioni lunghi senza perderti
+
+### 🎨 Altre idee in valutazione
+- **Modalità regista**: possibilità di annotare note di regia per ogni battuta
+- **Statistiche di studio**: traccia quanto tempo hai dedicato a ogni scena
+- **Esportazione PDF**: stampa il copione con le tue note
+- **Temi personalizzabili**: scegli colori e stili per l'interfaccia
+- **Sincronizzazione cloud**: salva i tuoi progressi e accedili da più dispositivi
+
+💡 **Hai un'idea?** Apri una issue su GitHub o contattaci! In Scena è fatto da teatranti per teatranti.
+
+---
 
 ## Inizia subito
 
