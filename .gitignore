@@ -1,0 +1,32 @@
+# Dependencies
+node_modules
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# Build output
+dist
+build
+
+# Environment
+.env
+.env.local
+.env.*.local
+
+# ElevenLabs API Key
+.elevenlabs
+
+# IDE
+.vscode
+.idea
+*.swp
+*.swo
+.DS_Store
+
+# Logs
+logs
+*.log
+npm-debug.log*
+
+# Optional: Audio files (rimuovi questa riga se vuoi committare gli audio)
+# public/audio/*.mp3

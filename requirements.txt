@@ -1,0 +1,2 @@
+# Dipendenze Python per generare file audio
+gtts==2.5.1

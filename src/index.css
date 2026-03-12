@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-slate-950 text-white font-body antialiased;
+  }
+  
+  * {
+    @apply tap-highlight-transparent;
+  }
+}
+
+@layer utilities {
+  .tap-highlight-transparent {
+    -webkit-tap-highlight-color: transparent;
+  }
+  
+  .glass-effect {
+    @apply bg-white/5 backdrop-blur-xl border border-white/10;
+  }
+}
