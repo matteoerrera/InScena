@@ -38,4 +38,5 @@ jobs:
           publish_dir: ./dist
           publish_branch: gh-pages
           force_orphan: true
-          cname: false
+          enable_jekyll: false
+          exclude_assets: '.github'
