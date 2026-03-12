@@ -2,6 +2,12 @@
   "name": "in-scena",
   "version": "1.0.0",
   "description": "In Scena - Il tuo compagno digitale per le prove teatrali",
+  "license": "CC-BY-NC-SA-4.0",
+  "author": "Matteo Errera",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/matteoerrera/InScena.git"
+  },
   "type": "module",
   "scripts": {
     "dev": "vite",

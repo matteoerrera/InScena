@@ -94,4 +94,23 @@ Consulta il file `README_TECNICO.md` per le istruzioni di installazione e config
 
 ---
 
+## Licenza 📄
+
+In Scena è rilasciato sotto licenza **Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)**.
+
+Questo significa che puoi:
+- ✓ Usare e modificare l'app liberamente
+- ✓ Condividerla con altri
+- ✓ Creare versioni personalizzate
+
+Ma **NON** puoi:
+- ✗ Venderla o usarla per scopi commerciali
+- ✗ Rimuovere le menzioni di paternità
+
+Consulta il file `LICENSE` per i dettagli completi.
+
+---
+
 **In Scena** - Porta il teatro sempre con te 🎭
+
+[![License: CC BY-NC-SA 4.0](https://img.shields.io/badge/License-CC%20BY--NC--SA%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by-nc-sa/4.0/)
