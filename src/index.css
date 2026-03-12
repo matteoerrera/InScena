@@ -8,7 +8,7 @@
   }
   
   * {
-    @apply tap-highlight-transparent;
+    @apply tap-highlight-transparent select-none;
   }
 }
 

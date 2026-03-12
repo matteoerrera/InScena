@@ -52,7 +52,7 @@ function NotesModal({ isOpen, onClose, lineId, initialNote, onSave }) {
               value={noteText}
               onChange={(e) => setNoteText(e.target.value)}
               placeholder="Scrivi qui le tue note: indicazioni di regia, emozioni da trasmettere, movimenti, intenzioni..."
-              className="w-full h-48 px-4 py-3 bg-slate-900/50 border border-white/20 rounded-xl text-white placeholder-slate-500 focus:outline-none focus:border-purple-500 focus:ring-2 focus:ring-purple-500/20 transition-all duration-200 resize-none"
+              className="w-full h-48 px-4 py-3 bg-slate-900/50 border border-white/20 rounded-xl text-white placeholder-slate-500 focus:outline-none focus:border-purple-500 focus:ring-2 focus:ring-purple-500/20 transition-all duration-200 resize-none select-text"
               autoFocus
             />
             <div className="text-xs text-slate-500 mt-2">
