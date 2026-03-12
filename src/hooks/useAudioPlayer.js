@@ -84,7 +84,11 @@ export function useAudioPlayer(currentLine, selectedCharacter, playbackRate, onL
 
     if (currentLine.audio) {
       setIsLoading(true)
-      audio.src = currentLine.audio
+      // Aggiungi BASE_URL per GitHub Pages
+      const audioPath = currentLine.audio.startsWith('/') 
+        ? import.meta.env.BASE_URL + currentLine.audio.slice(1)
+        : currentLine.audio
+      audio.src = audioPath
       audio.load()
       
       audio.play()

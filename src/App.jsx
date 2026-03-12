@@ -17,7 +17,7 @@ function App() {
   const [error, setError] = useState(null)
 
   useEffect(() => {
-    fetch('/data/script.json')
+    fetch(`${import.meta.env.BASE_URL}data/script.json`)
       .then(res => res.json())
       .then(data => {
         setScriptData(data)
