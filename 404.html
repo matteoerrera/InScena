@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="it">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>In Scena - Redirecting...</title>
+    <script>
+      // GitHub Pages SPA redirect
+      const path = window.location.pathname.slice(1);
+      if (path) {
+        window.location.replace('/InScena/' + (path === '404.html' ? '' : '?redirect=' + path));
+      } else {
+        window.location.replace('/InScena/');
+      }
+    </script>
+  </head>
+  <body>
+    <p>Pagina non trovata, redirect in corso...</p>
+  </body>
+</html>

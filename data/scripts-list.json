@@ -1,0 +1,16 @@
+[
+  {
+    "id": "ettore-achille",
+    "title": "Ettore e Achille",
+    "description": "Terzo atto de 'Il bar sotto il mare'",
+    "thumbnail": "🎭",
+    "file": "script.json"
+  },
+  {
+    "id": "before-sunrise",
+    "title": "Before Sunrise",
+    "description": "Scena del bar viennese",
+    "thumbnail": "💕",
+    "file": "before-sunrise.json"
+  }
+]

@@ -1,0 +1,441 @@
+{
+  "metadata": {
+    "title": "Ettore e Achille",
+    "description": "Terzo atto de 'Il bar sotto il mare', adattamento di Cristiana Mecozzi per Nuovo Piccolo Garbatella"
+  },
+  "characters": [
+    {
+      "id": "char1",
+      "name": "Narratore",
+      "color": "#6366F1",
+      "description": "Voce narrante della scena"
+    },
+    {
+      "id": "char2",
+      "name": "Achille",
+      "color": "#F59E0B",
+      "description": "Costruttore di camini e uno dei due protagonisti"
+    },
+    {
+      "id": "char3",
+      "name": "Ettore",
+      "color": "#10B981",
+      "description": "Fornaio e uno dei due protagonisti"
+    }
+  ],
+  "lines": [
+    {
+      "id": "line1",
+      "characterId": "char1",
+      "text": "Vorrei raccontare una storia delle mie parti. Parla di due amici che si chiamavano Ettore e Achille. Achille costruiva i camini e non ce n'era un altro come lui al mondo. I suoi camini tiravano l'aria così bene che non bisognava lasciarci vicini i bambini se no salivano per la cappa come tortorine. Ettore faceva il fornaio e il suo pane era tanto buono che il medico del paese lo prescriveva come una medicina: due rosette alla mattina e due alla sera con poca acqua. Achille ed Ettore stavano sempre insieme, pescavano insieme e facevano lunghe camminate in montagna. Un giorno stavano sotto un albero, era una bella giornata limpida senza una nube e Achille disse.",
+      "audio": "/audio/line1.mp3",
+      "order": 1
+    },
+    {
+      "id": "line2",
+      "characterId": "char2",
+      "text": "Lo sai che a Coppi batte 48 volte il cuore in un minuto?",
+      "audio": "/audio/line2.mp3",
+      "order": 2
+    },
+    {
+      "id": "line3",
+      "characterId": "char3",
+      "text": "È molto?",
+      "audio": "/audio/line3.mp3",
+      "order": 3
+    },
+    {
+      "id": "line4",
+      "characterId": "char2",
+      "text": "Una persona normale, come me e te, è tanto se ci batte uno o due volte al minuto; a lui 48 volte, che fisico!",
+      "audio": "/audio/line4.mp3",
+      "order": 4
+    },
+    {
+      "id": "line5",
+      "characterId": "char3",
+      "text": "E i polmoni come ce li ha?",
+      "audio": "/audio/line5.mp3",
+      "order": 5
+    },
+    {
+      "id": "line6",
+      "characterId": "char2",
+      "text": "I polmoni ce li ha che quando lui respira tutti quelli vicino svengono perché lui si prende tutta l'aria intorno e non ne lascia più agli altri.",
+      "audio": "/audio/line6.mp3",
+      "order": 6
+    },
+    {
+      "id": "line7",
+      "characterId": "char3",
+      "text": "E la bicicletta? Raccontami ancora come ha la bicicletta.",
+      "audio": "/audio/line7.mp3",
+      "order": 7
+    },
+    {
+      "id": "line8",
+      "characterId": "char2",
+      "text": "C'ha una bicicletta che pesa come un pulcino, ha le ruote di seta ed è così leggera che ne puoi tenere 6 o 7 in braccio mentre pedali e scegliere quella da salita, quella da discesa, da ghiaia, da cronometro e anche quella da giro d'onore con le bandiere... e sai cosa fa Coppi mentre corre?",
+      "audio": "/audio/line8.mp3",
+      "order": 8
+    },
+    {
+      "id": "line9",
+      "characterId": "char3",
+      "text": "Cosa fa?",
+      "audio": "/audio/line9.mp3",
+      "order": 9
+    },
+    {
+      "id": "line10",
+      "characterId": "char2",
+      "text": "Muove le orecchie. Quando va in discesa le apre e le ha così grosse e forti che frena con quelle, quando è in volata le chiude e diventa aerodinamico, quando vince le tira in su, quando è triste le tiene giù.",
+      "audio": "/audio/line10.mp3",
+      "order": 10
+    },
+    {
+      "id": "line11",
+      "characterId": "char3",
+      "text": "Come la lepre!",
+      "audio": "/audio/line11.mp3",
+      "order": 11
+    },
+    {
+      "id": "line12",
+      "characterId": "char2",
+      "text": "Più della lepre! Coppi va più forte della lepre! Magari i primi 50 metri la lepre gli va via sullo scatto, ma poi Coppi la riprende e la stacca.",
+      "audio": "/audio/line12.mp3",
+      "order": 12
+    },
+    {
+      "id": "line13",
+      "characterId": "char1",
+      "text": "Stavano a occhi chiusi a sognare cosa avrebbero dato per una bicicletta da corsa ed erano assorti in questi pensieri quando sentirono un rumore nel bosco.",
+      "audio": "/audio/line13.mp3",
+      "order": 13
+    },
+    {
+      "id": "line14",
+      "characterId": "char2",
+      "text": "Un capriolo!",
+      "audio": "/audio/line14.mp3",
+      "order": 14
+    },
+    {
+      "id": "line15",
+      "characterId": "char3",
+      "text": "Una volpe!",
+      "audio": "/audio/line15.mp3",
+      "order": 15
+    },
+    {
+      "id": "line16",
+      "characterId": "char1",
+      "text": "Invece era una bicicletta da corsa senza cavaliere che veniva giù tra albero e albero a tutta velocità. Fu un attimo, appena la bicicletta imbizzarrita gli passò vicino Achille la afferrò ma per quanto cercasse di fermarla quella continuava a correre verso il burrone e così Ettore con la forza che gli veniva dall'avere impastato per trent'anni lo tirò su.",
+      "audio": "/audio/line16.mp3",
+      "order": 16
+    },
+    {
+      "id": "line17",
+      "characterId": "char2",
+      "text": "Grazie, hai salvato la mia vita e la mia bicicletta.",
+      "audio": "/audio/line17.mp3",
+      "order": 17
+    },
+    {
+      "id": "line18",
+      "characterId": "char3",
+      "text": "Vorrai dire la mia bicicletta.",
+      "audio": "/audio/line18.mp3",
+      "order": 18
+    },
+    {
+      "id": "line19",
+      "characterId": "char1",
+      "text": "Addio amicizia! La sera stessa i due corsero da nonno Celso, il vecchio del paese, ed esposero le loro ragioni.",
+      "audio": "/audio/line19.mp3",
+      "order": 19
+    },
+    {
+      "id": "line20",
+      "characterId": "char2",
+      "text": "La bicicletta è mia perché l'ho catturata e l'ho ottenuta.",
+      "audio": "/audio/line20.mp3",
+      "order": 20
+    },
+    {
+      "id": "line21",
+      "characterId": "char3",
+      "text": "Sì, ma se non era per me eri morto e i morti non vanno in bicicletta.",
+      "audio": "/audio/line21.mp3",
+      "order": 21
+    },
+    {
+      "id": "line22",
+      "characterId": "char1",
+      "text": "Nonno Celso ci pensò a lungo, sei bicchieri almeno, poi disse: \"strigàtevela\". Era un'antica formula dialettale che voleva dire: io me ne lavo le mani. Quindi arrivò il sindaco e stabilì che solo un duello poteva risolvere la questione. Perciò riunì i due litiganti e diede ad Achille, che era più anziano, la scelta delle armi.",
+      "audio": "/audio/line22.mp3",
+      "order": 22
+    },
+    {
+      "id": "line23",
+      "characterId": "char2",
+      "text": "Insulti.",
+      "audio": "/audio/line23.mp3",
+      "order": 23
+    },
+    {
+      "id": "line24",
+      "characterId": "char3",
+      "text": "Insulti?",
+      "audio": "/audio/line24.mp3",
+      "order": 24
+    },
+    {
+      "id": "line25",
+      "characterId": "char2",
+      "text": "Insulti. E se è patta a fiatare e se è ancora patta a vino e salsicce.",
+      "audio": "/audio/line25.mp3",
+      "order": 25
+    },
+    {
+      "id": "line26",
+      "characterId": "char3",
+      "text": "Ci sto! Non ho paura di te, ladro di biciclette!",
+      "audio": "/audio/line26.mp3",
+      "order": 26
+    },
+    {
+      "id": "line27",
+      "characterId": "char2",
+      "text": "Non vale, mi insulta prima di cominciare.",
+      "audio": "/audio/line27.mp3",
+      "order": 27
+    },
+    {
+      "id": "line28",
+      "characterId": "char3",
+      "text": "Era una citazione colta da cinefilo.",
+      "audio": "/audio/line28.mp3",
+      "order": 28
+    },
+    {
+      "id": "line29",
+      "characterId": "char2",
+      "text": "Cinefilo sarai tu.",
+      "audio": "/audio/line29.mp3",
+      "order": 29
+    },
+    {
+      "id": "line30",
+      "characterId": "char1",
+      "text": "E dovettero separarli perché già si menavano. Alla sera tutto il paese era in piazza attorno ai due, uno di fronte all'altro. Ettore si mise le mani sui fianchi e per primo cantò.",
+      "audio": "/audio/line30.mp3",
+      "order": 30
+    },
+    {
+      "id": "line31",
+      "characterId": "char3",
+      "text": "Achille Lazzarini fa tirar tutti i camini, ma Lazzarini Agnese fa tirar tutto il paese.",
+      "audio": "/audio/line31.mp3",
+      "order": 31
+    },
+    {
+      "id": "line32",
+      "characterId": "char1",
+      "text": "Achille barcollò. Era un terribile insulto che faceva preciso riferimento alla sua bella e vivace sposa. Ma si riprese subito e intonò a sua volta.",
+      "audio": "/audio/line32.mp3",
+      "order": 32
+    },
+    {
+      "id": "line33",
+      "characterId": "char2",
+      "text": "Ettore Baldi tutte le notti fa i cornetti caldi. Lui ne fa 100 e altri due glieli fa Fiorenzo.",
+      "audio": "/audio/line33.mp3",
+      "order": 33
+    },
+    {
+      "id": "line34",
+      "characterId": "char1",
+      "text": "Il fornaio diventò bianco come farina. L'insulto riguardava una vecchia tresca di cui erano sospettati sua moglie e il postino Fiorenzo. Ma non si perse d'animo e declamò con voce tonante.",
+      "audio": "/audio/line34.mp3",
+      "order": 34
+    },
+    {
+      "id": "line35",
+      "characterId": "char3",
+      "text": "Ma stai zitto che non sai distinguere una pera Cassana da una spatona, che mungi le galline, che non sai cagar nell'erba, che spari ai rondoni, che la volpe ti ruba le bretelle, che i tuoi formaggi sanno di purghe e il vino di piscio e c'hai più zecche del tuo cane, più pidocchi di tua moglie e più rogna del tuo gatto!",
+      "audio": "/audio/line35.mp3",
+      "order": 35
+    },
+    {
+      "id": "line36",
+      "characterId": "char1",
+      "text": "Achille, che era di famiglia di grandi tradizioni contadine, quasi stramazzò per questo insulto agricolo, ma regolarmente replicò.",
+      "audio": "/audio/line36.mp3",
+      "order": 36
+    },
+    {
+      "id": "line37",
+      "characterId": "char2",
+      "text": "Gran figlio della tua mamma che munge i cavalli e la dà in giro nei campi come il verderame, di tuo babbo che lo mette nel dietro delle anatre crude e cotte e di tutti i sissignore che ha detto tua sorella che non c'ha più neanche il tempo di parlare, di tuo fratello spara pippe e di tua nonna che se la gratta nelle pannocchie e di tuo nonno che s'è fatto più chierichetti di un cardinale e di tuo zio che si faceva tutte le vacche della stalla meno tua zia che a quella ci pensavi tu i giorni pari e il somaro i dispari.",
+      "audio": "/audio/line37.mp3",
+      "order": 37
+    },
+    {
+      "id": "line38",
+      "characterId": "char1",
+      "text": "La gente restò allibita, incerta se applaudire o gridare per l'orrore di un insulto così lungo che non si era sentito mai. Ettore accese una sigaretta e poi disse.",
+      "audio": "/audio/line38.mp3",
+      "order": 38
+    },
+    {
+      "id": "line39",
+      "characterId": "char3",
+      "text": "Hai mica detto qualcosa?",
+      "audio": "/audio/line39.mp3",
+      "order": 39
+    },
+    {
+      "id": "line40",
+      "characterId": "char1",
+      "text": "Il sindaco, per impedire altri reati di strage al pudore, dichiarò il pari e patta. Ordinò che la bicicletta venisse giocata a fiatate, una sola per parte. Fu decretato lo stato d'allarme, vennero inchiodati gli infissi e i bambini vennero zavorrati con pesi e le donne incinte portate in cantina. Di mattina presto i due furono messi di fronte a una distanza di 50 metri nel prato più ampio della zona.",
+      "audio": "/audio/line40.mp3",
+      "order": 40
+    },
+    {
+      "id": "line41",
+      "characterId": "char2",
+      "text": "Io ho mangiato quattro casse di porri e cipolle crude, un chilo e mezzo di gorgonzola e una ricotta andata male.",
+      "audio": "/audio/line41.mp3",
+      "order": 41
+    },
+    {
+      "id": "line42",
+      "characterId": "char3",
+      "text": "Io mi sono spazzolato 20 agli e altrettanti peperoni e ho bevuto una damigiana di vino andato in aceto.",
+      "audio": "/audio/line42.mp3",
+      "order": 42
+    },
+    {
+      "id": "line43",
+      "characterId": "char1",
+      "text": "La gente si appiattì a terra. Per primo fiatò Ettore e venne registrato come scossa dell'ottavo grado Mercalli e provocò crolli in abitazioni e le comunicazioni furono interrotte in quanto la fiatata fece un filotto di tutti i pali elettrici. L'area mefitica proseguì poi la sua corsa verso il mare facendo volare in aria 2000 ombrelloni da spiaggia e provocò un'onda anomala che investì le coste della Dalmazia. Ebbene, quando tutto fu finito la sola cosa in piedi nella valle era Achille piantato sulle gambe come un toro. Achille sparò a sua volta, si udì un rumore come se avessero tolto il tappo all'oceano, cominciarono a volare le chiome degli alberi e il tornado cipolloso rase al suolo i campi, la vibrazione provocò una frattura del terreno con conseguente fuoriuscita di gas caldi e per finire la fiatata traforò le Alpi, spazzò le pianure europee e si spinse fino al mare di Norvegia. Al termine del cataclisma Ettore era ancora in piedi in mezzo al prato e disse ad Achille.",
+      "audio": "/audio/line43.mp3",
+      "order": 43
+    },
+    {
+      "id": "line44",
+      "characterId": "char3",
+      "text": "Hai mica detto qualcosa?",
+      "audio": "/audio/line44.mp3",
+      "order": 44
+    },
+    {
+      "id": "line45",
+      "characterId": "char1",
+      "text": "Il sindaco, dopo aver sospeso la gara per la salvezza generale, decise che restava ormai solo lo scontro a vino e salsiccia. Vennero perciò portate in piazza tonnellate di salsiccia e cisterne di vino e la sfida ebbe inizio.",
+      "audio": "/audio/line45.mp3",
+      "order": 45
+    },
+    {
+      "id": "line46",
+      "characterId": "char3",
+      "text": "Mi succhio come uno spaghetto 5 metri di salsiccia fresca.",
+      "audio": "/audio/line46.mp3",
+      "order": 46
+    },
+    {
+      "id": "line47",
+      "characterId": "char2",
+      "text": "E io mi mangio al volo 212 salsiccini all'aglio.",
+      "audio": "/audio/line47.mp3",
+      "order": 47
+    },
+    {
+      "id": "line48",
+      "characterId": "char1",
+      "text": "Per ogni metro di salsiccia i due bevevano un bottiglione di vino. Il dottore teneva il conto con un pallottoliere.",
+      "audio": "/audio/line48.mp3",
+      "order": 48
+    },
+    {
+      "id": "line49",
+      "characterId": "char3",
+      "text": "Di questa salsiccia cotta ne mangio sei catene e quattro mezzi metri e voglio anche un filone di pane da mangiarci vicino.",
+      "audio": "/audio/line49.mp3",
+      "order": 49
+    },
+    {
+      "id": "line50",
+      "characterId": "char2",
+      "text": "Io faccio una montagna di polenta alta come un uomo e in mezzo ci faccio un buco pieno di salsiccia in umido.",
+      "audio": "/audio/line50.mp3",
+      "order": 50
+    },
+    {
+      "id": "line51",
+      "characterId": "char3",
+      "text": "Io mi faccio fare una flebo di vino bianco e intanto mi bevo il rosé.",
+      "audio": "/audio/line51.mp3",
+      "order": 51
+    },
+    {
+      "id": "line52",
+      "characterId": "char2",
+      "text": "Io me ne bevo un bottiglione dalla bocca e uno dal naso.",
+      "audio": "/audio/line52.mp3",
+      "order": 52
+    },
+    {
+      "id": "line53",
+      "characterId": "char1",
+      "text": "Invano cercammo di farli smettere. Era arrivata gente da tutta la montagna e si facevano scommesse. Si era calcolato che con le salsicce mangiate si poteva fare tre volte la circonferenza della Terra.",
+      "audio": "/audio/line53.mp3",
+      "order": 53
+    },
+    {
+      "id": "line54",
+      "characterId": "char2",
+      "text": "Un salsiccino di cinghiale e mezzo metro di piccante.",
+      "audio": "/audio/line54.mp3",
+      "order": 54
+    },
+    {
+      "id": "line55",
+      "characterId": "char3",
+      "text": "Una salsiccia di somarino e mezzo metro di passita!",
+      "audio": "/audio/line55.mp3",
+      "order": 55
+    },
+    {
+      "id": "line56",
+      "characterId": "char1",
+      "text": "Dopodiché cominciarono a diminuire il ritmo, ma si vedeva che erano allo stremo delle forze e avevano gli occhi iniettati di insaccato e pisciavano direttamente vino. Alla fine Achille riuscì a chiudere la bocca e mandò giù l'ultimo boccone. Ettore prese un bicchiere di bianco che aveva lì vicino, mandò giù un sorso... e morì fulminato. Per errore aveva preso il bicchiere di cedrata della farmacista signora Gabriella, unica astemia del paese; il suo fisico era abituato a ogni eccesso ma quell'improvvisa novità gli fu fatale. Con Ettore morto Achille scoppiò in pianto, gli si buttò sopra, gli chiese perdono e urlava come un porcello sgozzato.",
+      "audio": "/audio/line56.mp3",
+      "order": 56
+    },
+    {
+      "id": "line57",
+      "characterId": "char2",
+      "text": "Non voglio più la bicicletta! Non la voglio! Alzati e pedala Ettore!",
+      "audio": "/audio/line57.mp3",
+      "order": 57
+    },
+    {
+      "id": "line58",
+      "characterId": "char1",
+      "text": "Così finì la grande sfida tra i due amici. E la bicicletta? Direte voi. Il giorno dopo arrivarono i carabinieri e dissero che la bicicletta apparteneva a un signore che la stava trasportando su un furgoncino quando in una curva era caduta e rotolata e dovevano riportargliela. Quando la popolazione sentì queste parole insorse in un boato e i carabinieri scapparono alla velocità della luce. Se ora andate al cimitero vedrete una tomba e sopra una bicicletta da corsa in ottimo stato. La lapide dice.",
+      "audio": "/audio/line58.mp3",
+      "order": 58
+    },
+    {
+      "id": "line59",
+      "characterId": "char2",
+      "text": "A Ettore Baldi, stroncato da prematura cedrata, i suoi cari e gli amici posero salutandolo in paradiso, ove è sicuramente arrivato perché in salita va fortissimo.",
+      "audio": "/audio/line59.mp3",
+      "order": 59
+    }
+  ]
+}
