@@ -1,8 +1,11 @@
 import { useState, useEffect } from 'react'
 import CharacterSelection from './components/CharacterSelection'
 import ScriptPlayer from './components/ScriptPlayer'
+import ScriptSelection from './components/ScriptSelection'
 
 function App() {
+  const [scriptsList, setScriptsList] = useState(null)
+  const [selectedScript, setSelectedScript] = useState(null)
   const [scriptData, setScriptData] = useState(null)
   const [selectedCharacter, setSelectedCharacter] = useState(null)
   const [playbackRate, setPlaybackRate] = useState(() => {
@@ -16,8 +19,25 @@ function App() {
   const [loading, setLoading] = useState(true)
   const [error, setError] = useState(null)
 
+  // Carica lista copioni
   useEffect(() => {
-    fetch(`${import.meta.env.BASE_URL}data/script.json`)
+    fetch(`${import.meta.env.BASE_URL}data/scripts-list.json`)
+      .then(res => res.json())
+      .then(data => {
+        setScriptsList(data)
+        setLoading(false)
+      })
+      .catch(err => {
+        setError('Impossibile caricare la lista dei copioni')
+        setLoading(false)
+        console.error(err)
+      })
+  }, [])
+
+  // Carica copione selezionato
+  const loadScript = (scriptFile) => {
+    setLoading(true)
+    fetch(`${import.meta.env.BASE_URL}data/${scriptFile}`)
       .then(res => res.json())
       .then(data => {
         setScriptData(data)
@@ -34,7 +54,7 @@ function App() {
         setLoading(false)
         console.error(err)
       })
-  }, [])
+  }
 
   const handleCharacterSelect = (character) => {
     setSelectedCharacter(character)
@@ -56,11 +76,19 @@ function App() {
     localStorage.removeItem('inscena_selected_character')
   }
 
+  const handleBackToScripts = () => {
+    setSelectedScript(null)
+    setScriptData(null)
+    setSelectedCharacter(null)
+    localStorage.removeItem('inscena_selected_character')
+  }
+
   if (loading) {
     return (
-      <div className="min-h-screen flex items-center justify-center">
-        <div className="animate-pulse-slow">
-          <div className="text-2xl font-bold text-purple-400">Caricamento...</div>
+      <div className="min-h-screen flex items-center justify-center bg-gradient-to-br from-slate-950 via-purple-950/20 to-slate-950">
+        <div className="text-center">
+          <div className="w-16 h-16 border-4 border-purple-500 border-t-transparent rounded-full animate-spin mx-auto mb-4"></div>
+          <p className="text-slate-400 text-lg">Caricamento...</p>
         </div>
       </div>
     )
@@ -68,16 +96,35 @@ function App() {
 
   if (error) {
     return (
-      <div className="min-h-screen flex items-center justify-center p-6">
-        <div className="glass-effect rounded-2xl p-8 max-w-md text-center">
-          <div className="text-red-400 text-xl font-semibold mb-2">Errore</div>
-          <div className="text-slate-300">{error}</div>
+      <div className="min-h-screen flex items-center justify-center bg-gradient-to-br from-slate-950 via-purple-950/20 to-slate-950 p-6">
+        <div className="text-center max-w-md">
+          <p className="text-red-400 text-xl mb-4">⚠️ {error}</p>
+          <button
+            onClick={() => window.location.reload()}
+            className="px-6 py-3 rounded-xl bg-gradient-to-r from-purple-500 to-pink-500 text-white font-semibold"
+          >
+            Riprova
+          </button>
         </div>
       </div>
     )
   }
 
-  if (!selectedCharacter) {
+  // Mostra selezione copione
+  if (!selectedScript) {
+    return (
+      <ScriptSelection
+        scripts={scriptsList}
+        onSelectScript={(script) => {
+          setSelectedScript(script)
+          loadScript(script.file)
+        }}
+      />
+    )
+  }
+
+  // Mostra selezione personaggio
+  if (!selectedCharacter && scriptData) {
     return (
       <CharacterSelection
         characters={scriptData.characters}
@@ -85,20 +132,26 @@ function App() {
         hideUserText={hideUserText}
         onSelect={handleCharacterSelect}
         onHideUserTextChange={handleHideUserTextChange}
+        onBack={handleBackToScripts}
       />
     )
   }
 
-  return (
-    <ScriptPlayer
-      scriptData={scriptData}
-      selectedCharacter={selectedCharacter}
-      playbackRate={playbackRate}
-      hideUserText={hideUserText}
-      onPlaybackRateChange={handlePlaybackRateChange}
-      onBackToSelection={handleBackToSelection}
-    />
-  )
+  // Mostra player
+  if (scriptData && selectedCharacter) {
+    return (
+      <ScriptPlayer
+        scriptData={scriptData}
+        selectedCharacter={selectedCharacter}
+        playbackRate={playbackRate}
+        hideUserText={hideUserText}
+        onPlaybackRateChange={handlePlaybackRateChange}
+        onBackToSelection={handleBackToSelection}
+      />
+    )
+  }
+
+  return null
 }
 
 export default App

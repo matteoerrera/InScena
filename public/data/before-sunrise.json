@@ -1,0 +1,352 @@
+{
+  "metadata": {
+    "title": "Before Sunrise - Scena del Bar",
+    "description": "Scena iconica del bar viennese tra Jesse e Céline",
+    "scene": "Bar di Vienna",
+    "source": "BEFORE SUNRISE - scena ristorante"
+  },
+  "characters": [
+    {
+      "id": "celine",
+      "name": "Céline",
+      "color": "#EC4899",
+      "description": "Giovane francese, intelligente e passionale"
+    },
+    {
+      "id": "jesse",
+      "name": "Jesse",
+      "color": "#3B82F6",
+      "description": "Americano di passaggio, dolce e un po' impacciato"
+    }
+  ],
+  "lines": [
+    {
+      "id": "line1",
+      "characterId": "celine",
+      "text": "Pronto? Sì, ciao, sono io. Senti, mi dispiace ma volevo solo dirti che oggi non posso venire a pranzo.",
+      "scene": "Bar di Vienna",
+      "order": 1,
+      "audio": "/audio/before-sunrise-line1.mp3"
+    },
+    {
+      "id": "line2",
+      "characterId": "jesse",
+      "text": "Oh, davvero?",
+      "scene": "Bar di Vienna",
+      "order": 2,
+      "audio": "/audio/before-sunrise-line2.mp3"
+    },
+    {
+      "id": "line3",
+      "characterId": "celine",
+      "text": "Sì, ho conosciuto un ragazzo sul treno e sono scesa con lui a Vienna.",
+      "scene": "Bar di Vienna",
+      "order": 3,
+      "audio": "/audio/before-sunrise-line3.mp3"
+    },
+    {
+      "id": "line4",
+      "characterId": "jesse",
+      "text": "Céline! Sei impazzita?",
+      "scene": "Bar di Vienna",
+      "order": 4,
+      "audio": "/audio/before-sunrise-line4.mp3"
+    },
+    {
+      "id": "line5",
+      "characterId": "celine",
+      "text": "Forse sì.",
+      "scene": "Bar di Vienna",
+      "order": 5,
+      "audio": "/audio/before-sunrise-line5.mp3"
+    },
+    {
+      "id": "line6",
+      "characterId": "jesse",
+      "text": "E chi sarebbe questo tipo? È austriaco?",
+      "scene": "Bar di Vienna",
+      "order": 6,
+      "audio": "/audio/before-sunrise-line6.mp3"
+    },
+    {
+      "id": "line7",
+      "characterId": "celine",
+      "text": "No, è un americano di passaggio. Torna a casa domani.",
+      "scene": "Bar di Vienna",
+      "order": 7,
+      "audio": "/audio/before-sunrise-line7.mp3"
+    },
+    {
+      "id": "line8",
+      "characterId": "jesse",
+      "text": "E perché sei scesa dal treno con lui?",
+      "scene": "Bar di Vienna",
+      "order": 8,
+      "audio": "/audio/before-sunrise-line8.mp3"
+    },
+    {
+      "id": "line9",
+      "characterId": "celine",
+      "text": "Mi ha convinta. In realtà, sarei scesa dal treno con lui già dopo pochi minuti di conversazione. Era così dolce...",
+      "scene": "Bar di Vienna",
+      "order": 9,
+      "audio": "/audio/before-sunrise-line9.mp3"
+    },
+    {
+      "id": "line10",
+      "characterId": "celine",
+      "text": "Nel vagone ristorante mi parlava di quando, da bambino, ha visto il fantasma della sua bisnonna. È lì che ha conquistata.",
+      "scene": "Bar di Vienna",
+      "order": 10,
+      "audio": "/audio/before-sunrise-line10.mp3"
+    },
+    {
+      "id": "line11",
+      "characterId": "celine",
+      "text": "Ha degli occhi azzurri bellissimi, belle labbra rosa… anche se i capelli un po’ unti.",
+      "scene": "Bar di Vienna",
+      "order": 11,
+      "audio": "/audio/before-sunrise-line11.mp3"
+    },
+    {
+      "id": "line12",
+      "characterId": "jesse",
+      "text": "Ehi!",
+      "scene": "Bar di Vienna",
+      "order": 12,
+      "audio": "/audio/before-sunrise-line12.mp3"
+    },
+    {
+      "id": "line13",
+      "characterId": "celine",
+      "text": "È alto, un po’ impacciato… Mi piace come mi osserva quando io guardo altrove.",
+      "scene": "Bar di Vienna",
+      "order": 13,
+      "audio": "/audio/before-sunrise-line13.mp3"
+    },
+    {
+      "id": "line14",
+      "characterId": "celine",
+      "text": "Bacia come un adolescente. È così carino.",
+      "scene": "Bar di Vienna",
+      "order": 14,
+      "audio": "/audio/before-sunrise-line14.mp3"
+    },
+    {
+      "id": "line15",
+      "characterId": "jesse",
+      "text": "Cosa?!",
+      "scene": "Bar di Vienna",
+      "order": 15,
+      "audio": "/audio/before-sunrise-line15.mp3"
+    },
+    {
+      "id": "line16",
+      "characterId": "celine",
+      "text": "Sì, ci siamo baciati. È stato adorabile.",
+      "scene": "Bar di Vienna",
+      "order": 16,
+      "audio": "/audio/before-sunrise-line16.mp3"
+    },
+    {
+      "id": "line17",
+      "characterId": "celine",
+      "text": "Col passare delle ore mi è piaciuto sempre di più. Ma temo che abbia paura di me… Gli ho raccontato la storia di quella donna che uccide il suo ex ragazzo.",
+      "scene": "Bar di Vienna",
+      "order": 17,
+      "audio": "/audio/before-sunrise-line17.mp3"
+    },
+    {
+      "id": "line18",
+      "characterId": "jesse",
+      "text": "Dev’essere terrorizzato!",
+      "scene": "Bar di Vienna",
+      "order": 18,
+      "audio": "/audio/before-sunrise-line18.mp3"
+    },
+    {
+      "id": "line19",
+      "characterId": "celine",
+      "text": "Forse mi crede una donna malvagia, manipolatrice… Spero di no. Tu mi conosci, non farei male a una mosca, potrei solo fare male a me stessa.",
+      "scene": "Bar di Vienna",
+      "order": 19,
+      "audio": "/audio/before-sunrise-line19.mp3"
+    },
+    {
+      "id": "line20",
+      "characterId": "jesse",
+      "text": "Non credo che sia spaventato. Penso che sia pazzo di te.",
+      "scene": "Bar di Vienna",
+      "order": 20,
+      "audio": "/audio/before-sunrise-line20.mp3"
+    },
+    {
+      "id": "line21",
+      "characterId": "celine",
+      "text": "Davvero?",
+      "scene": "Bar di Vienna",
+      "order": 21,
+      "audio": "/audio/before-sunrise-line21.mp3"
+    },
+    {
+      "id": "line22",
+      "characterId": "jesse",
+      "text": "Ti conosco da molto tempo, sento buone vibrazioni… lo rivedrai?",
+      "scene": "Bar di Vienna",
+      "order": 22,
+      "audio": "/audio/before-sunrise-line22.mp3"
+    },
+    {
+      "id": "line23",
+      "characterId": "celine",
+      "text": "Non ne abbiamo ancora parlato.",
+      "scene": "Bar di Vienna",
+      "order": 23,
+      "audio": "/audio/before-sunrise-line23.mp3"
+    },
+    {
+      "id": "line24",
+      "characterId": "celine",
+      "text": "Ora tocca a te. Chiama un tuo amico.",
+      "scene": "Bar di Vienna",
+      "order": 24,
+      "audio": "/audio/before-sunrise-line24.mp3"
+    },
+    {
+      "id": "line25",
+      "characterId": "jesse",
+      "text": "Ehi, Frank! Sono io. Come te la passi?",
+      "scene": "Bar di Vienna",
+      "order": 25,
+      "audio": "/audio/before-sunrise-line25.mp3"
+    },
+    {
+      "id": "line26",
+      "characterId": "jesse",
+      "text": "Da schifo, alla fine è andata. Io e Lisa finalmente abbiamo rotto.",
+      "scene": "Bar di Vienna",
+      "order": 26,
+      "audio": "/audio/before-sunrise-line26.mp3"
+    },
+    {
+      "id": "line27",
+      "characterId": "celine",
+      "text": "Peccato, amico. Ma te l’avevo detto…",
+      "scene": "Bar di Vienna",
+      "order": 27,
+      "audio": "/audio/before-sunrise-line27.mp3"
+    },
+    {
+      "id": "line28",
+      "characterId": "jesse",
+      "text": "Già, i rapporti a distanza non funzionano mai. Sono rimasto a Madrid due giorni, ho preso un volo economico da Vienna, cioè non era tanto economico solo che non potevo tornare a casa… non volevo vedere gente conosciuta. Volevo essere un fantasma completamente anonimo.",
+      "scene": "Bar di Vienna",
+      "order": 28,
+      "audio": "/audio/before-sunrise-line28.mp3"
+    },
+    {
+      "id": "line29",
+      "characterId": "celine",
+      "text": "Ora stai bene?",
+      "scene": "Bar di Vienna",
+      "order": 29,
+      "audio": "/audio/before-sunrise-line29.mp3"
+    },
+    {
+      "id": "line30",
+      "characterId": "jesse",
+      "text": "Sì, sto benissimo, è questo il punto. Sono in estasi, e ti dirò il perché. Ho conosciuto una persona nel mio ultimo giorno in Europa.",
+      "scene": "Bar di Vienna",
+      "order": 30,
+      "audio": "/audio/before-sunrise-line30.mp3"
+    },
+    {
+      "id": "line31",
+      "characterId": "celine",
+      "text": "Davvero? Chi è?",
+      "scene": "Bar di Vienna",
+      "order": 31,
+      "audio": "/audio/before-sunrise-line31.mp3"
+    },
+    {
+      "id": "line32",
+      "characterId": "jesse",
+      "text": "Sai quando dicono che siamo il demone o l’angelo, gli uni degli altri? Lei era un vero angelo di Botticelli che mi diceva che tutto sarebbe andato bene.",
+      "scene": "Bar di Vienna",
+      "order": 32,
+      "audio": "/audio/before-sunrise-line32.mp3"
+    },
+    {
+      "id": "line33",
+      "characterId": "celine",
+      "text": "E come vi siete conosciuti?",
+      "scene": "Bar di Vienna",
+      "order": 33,
+      "audio": "/audio/before-sunrise-line33.mp3"
+    },
+    {
+      "id": "line34",
+      "characterId": "jesse",
+      "text": "Sul treno. Era seduta davanti a una strana coppia che litigava, si è dovuta spostare. Si è seduta di fronte a me. Abbiamo iniziato a parlare… e all’inizio non le piacevo.",
+      "scene": "Bar di Vienna",
+      "order": 34,
+      "audio": "/audio/before-sunrise-line34.mp3"
+    },
+    {
+      "id": "line35",
+      "characterId": "celine",
+      "text": "Davvero?",
+      "scene": "Bar di Vienna",
+      "order": 35,
+      "audio": "/audio/before-sunrise-line35.mp3"
+    },
+    {
+      "id": "line36",
+      "characterId": "jesse",
+      "text": "Sì, è molto intelligente, molto passionale… e bellissima. Mi sentivo molto insicuro, quello che dicevo suonava tutto stupido.",
+      "scene": "Bar di Vienna",
+      "order": 36,
+      "audio": "/audio/before-sunrise-line36.mp3"
+    },
+    {
+      "id": "line37",
+      "characterId": "celine",
+      "text": "Io non me ne preoccuperei. Sono certo che non ti giudicava. E poi si è seduta accanto a te, lo ha fatto sicuramente apposta.",
+      "scene": "Bar di Vienna",
+      "order": 37,
+      "audio": "/audio/before-sunrise-line37.mp3"
+    },
+    {
+      "id": "line38",
+      "characterId": "jesse",
+      "text": "Dici?",
+      "scene": "Bar di Vienna",
+      "order": 38,
+      "audio": "/audio/before-sunrise-line38.mp3"
+    },
+    {
+      "id": "line39",
+      "characterId": "celine",
+      "text": "Certo, noi uomini siamo stupidi. Non capiamo niente di donne.",
+      "scene": "Bar di Vienna",
+      "order": 39,
+      "audio": "/audio/before-sunrise-line39.mp3"
+    },
+    {
+      "id": "line40",
+      "characterId": "jesse",
+      "text": "Per quanto ne so si comportano in modo strano. Non è vero?",
+      "scene": "Bar di Vienna",
+      "order": 40,
+      "audio": "/audio/before-sunrise-line40.mp3"
+    },
+    {
+      "id": "line41",
+      "characterId": "celine",
+      "text": "Certo.",
+      "scene": "Bar di Vienna",
+      "order": 41,
+      "audio": "/audio/before-sunrise-line41.mp3"
+    }
+  ]
+}

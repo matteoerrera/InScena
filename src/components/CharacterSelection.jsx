@@ -68,7 +68,7 @@ function SettingsModal({ isOpen, onClose, hideUserText, onHideUserTextChange }) 
   )
 }
 
-function CharacterSelection({ characters, metadata, hideUserText, onSelect, onHideUserTextChange }) {
+function CharacterSelection({ characters, metadata, hideUserText, onSelect, onHideUserTextChange, onBack }) {
   const [hoveredId, setHoveredId] = useState(null)
   const [showSettings, setShowSettings] = useState(false)
 
@@ -76,6 +76,17 @@ function CharacterSelection({ characters, metadata, hideUserText, onSelect, onHi
     <div className="min-h-screen flex flex-col items-center justify-center p-6 bg-gradient-to-br from-slate-950 via-purple-950/20 to-slate-950">
       <div className="max-w-4xl w-full animate-fade-in">
         <div className="text-center mb-12 relative">
+          {onBack && (
+            <button
+              onClick={onBack}
+              className="absolute top-0 left-0 w-12 h-12 rounded-xl glass-effect hover:bg-white/10 transition-all duration-200 flex items-center justify-center text-slate-400 hover:text-white"
+              title="Torna alla selezione copioni"
+            >
+              <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10 19l-7-7m0 0l7-7m-7 7h18" />
+              </svg>
+            </button>
+          )}
           <button
             onClick={() => setShowSettings(true)}
             className="absolute top-0 right-0 w-12 h-12 rounded-xl glass-effect hover:bg-white/10 transition-all duration-200 flex items-center justify-center text-slate-400 hover:text-white"
